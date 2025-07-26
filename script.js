@@ -111,7 +111,7 @@ function jump() {
 
 function createPipe() {
     const minHeight = 50;
-    const maxHeight = canvas.height - pipeGap - 50;
+    const maxHeight = canvas.height - pipeGap - 80;
     const topHeight = Math.random() * (maxHeight - minHeight) + minHeight;
     
     pipes.push({
