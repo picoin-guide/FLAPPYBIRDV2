@@ -28,7 +28,7 @@ const bird = {
 
 let pipes = [];
 const pipeWidth = 20;
-const pipeGap = 150;
+const pipeGap = 50;
 const pipeSpeed = 2;
 
 // Initialize high score display
