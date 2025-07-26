@@ -28,7 +28,7 @@ const bird = {
 
 let pipes = [];
 const pipeWidth = 20;
-const pipeGap = 50;
+const pipeGap = 100;
 const pipeSpeed = 2;
 
 // Initialize high score display
@@ -110,8 +110,8 @@ function jump() {
 }
 
 function createPipe() {
-    const minHeight = 50;
-    const maxHeight = canvas.height - pipeGap - 50;
+    const minHeight = 100;
+    const maxHeight = canvas.height - pipeGap - 100;
     const topHeight = Math.random() * (maxHeight - minHeight) + minHeight;
     
     pipes.push({
