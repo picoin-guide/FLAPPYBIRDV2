@@ -243,7 +243,7 @@ function drawGameState() {
         ctx.fillStyle = '#fff';
         ctx.font = 'bold 24px Arial';
         ctx.textAlign = 'center';
-        ctx.fillText('Flappy Bird', canvas.width/2, canvas.height/2 - 50);
+        ctx.fillText('Flappy Bird V2', canvas.width/2, canvas.height/2 - 50);
         
         ctx.font = '16px Arial';
         ctx.fillText('Click Start or press SPACE', canvas.width/2, canvas.height/2 + 20);
